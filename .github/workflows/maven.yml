@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     path-ignore:
-      - ".github/workflows/maven.yml"
+      - '.github/workflows/maven.yml'
   pull_request:
     branches: [ "main" ]
 
