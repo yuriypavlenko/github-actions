@@ -17,4 +17,14 @@ public class MainTests {
         int result = Main.compare(a, b);
         assertThat(result, equalTo(1));
     }
+
+    @Test
+    @DisplayName("a < b")
+    public void compareLess() {
+        int a = 2;
+        int b = 3;
+
+        int result = Main.compare(a, b);
+        assertThat(result, equalTo(-1));
+    }
 }
