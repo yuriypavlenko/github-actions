@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: See info
-        run: echo "${{ toJson(github.commits.author) }}"
+        run: echo "${{ toJson(github.event.commits.author) }}"
   build:
     if: ${{ false }}
     runs-on: ubuntu-latest
