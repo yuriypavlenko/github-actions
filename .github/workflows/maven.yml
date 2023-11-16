@@ -3,7 +3,7 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "main" ]
-    path-ignore:
+    paths-ignore:
       - '.github/workflows/maven.yml'
   pull_request:
     branches: [ "main" ]
