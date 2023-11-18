@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 18 20:35:12 GMT 2023","Sat Nov 18 20:35:12 GMT 2023","1","","org.example.MainTests","","org.example.MainTests","compare","a > b",""
+"passed","Sat Nov 18 20:35:12 GMT 2023","Sat Nov 18 20:35:12 GMT 2023","56","","org.example.MainTests","","org.example.MainTests","compareEquals","a = b",""
+"passed","Sat Nov 18 20:35:12 GMT 2023","Sat Nov 18 20:35:12 GMT 2023","3","","org.example.MainTests","","org.example.MainTests","compareLess","a < b",""
