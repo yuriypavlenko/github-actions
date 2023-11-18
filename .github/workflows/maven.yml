@@ -36,7 +36,6 @@ jobs:
     - name: Compile
       run: mvn clean compile
   test-smoke:
-    if: ${{ false }}
     runs-on: ubuntu-latest
     needs: build
     steps:
