@@ -27,4 +27,14 @@ public class MainTests {
         int result = Main.compare(a, b);
         assertThat(result, equalTo(-1));
     }
+
+    @Test
+    @DisplayName("a = b")
+    public void compareEquals() {
+        int a = 2;
+        int b = 2;
+
+        int result = Main.compare(a, b);
+        assertThat(result, equalTo(0));
+    }
 }
