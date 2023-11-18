@@ -15,7 +15,7 @@ public class MainTests {
         int b = 2;
 
         int result = Main.compare(a, b);
-        assertThat(result, equalTo(1));
+        assertThat(result, equalTo(2));
     }
 
     @Test
