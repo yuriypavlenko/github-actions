@@ -42,7 +42,7 @@
                 <version>3.2.2</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <allure.results.directory>reports/allure-results</allure.results.directory>
+                        <allure.results.directory>build/allure-results</allure.results.directory>
                     </systemPropertyVariables>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
