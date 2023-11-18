@@ -7,7 +7,7 @@ on:
       - '.github/workflows/maven.yml'
   pull_request:
     branches: [ "main" ]
-
+  workflow_dispatch:
 jobs:
   info:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
       - name: See info
         run: echo "${{ toJson(github.event.pusher.name) }}"
   build:
-    if: ${{ false }}
+    if: ${{ true }}
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
